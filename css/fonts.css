@@ -1,0 +1,79 @@
+@font-face {
+	font-family: 'ALS Schlange sans f';
+	src: url('../fonts/ALSSchlangesans-Bold.eot');
+	src: local('ALS Schlange sans Bold'), local('ALSSchlangesans-Bold'),
+			url('../fonts/ALSSchlangesans-Bold.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/ALSSchlangesans-Bold.woff2') format('woff2'),
+			url('../fonts/ALSSchlangesans-Bold.woff') format('woff'),
+			url('../fonts/ALSSchlangesans-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ALS Schlange sans x';
+	src: url('../fonts/ALSSchlangesans-Black.eot');
+	src: local('ALS Schlange sans Black'), local('ALSSchlangesans-Black'),
+			url('../fonts/ALSSchlangesans-Black.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/ALSSchlangesans-Black.woff2') format('woff2'),
+			url('../fonts/ALSSchlangesans-Black.woff') format('woff'),
+			url('../fonts/ALSSchlangesans-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ALS Schlange sans';
+	src: url('../fonts/ALSSchlangesans-Light.eot');
+	src: local('ALS Schlange sans Light'), local('ALSSchlangesans-Light'),
+			url('../fonts/ALSSchlangesans-Light.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/ALSSchlangesans-Light.woff2') format('woff2'),
+			url('../fonts/ALSSchlangesans-Light.woff') format('woff'),
+			url('../fonts/ALSSchlangesans-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ALS Schlange sans';
+	src: url('../fonts/ALSSchlangesans-Thin.eot');
+	src: local('../fonts/ALS Schlange sans Thin'), local('ALSSchlangesans-Thin'),
+			url('../fonts/ALSSchlangesans-Thin.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/ALSSchlangesans-Thin.woff2') format('woff2'),
+			url('../fonts/ALSSchlangesans-Thin.woff') format('woff'),
+			url('../fonts/ALSSchlangesans-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ALS Schlange sans';
+	src: url('../fonts/ALSSchlangesans.eot');
+	src: local('../fonts/ALS Schlange sans'), local('ALSSchlangesans'),
+			url('../fonts/ALSSchlangesans.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/ALSSchlangesans.woff2') format('woff2'),
+			url('../fonts/ALSSchlangesans.woff') format('woff'),
+			url('../fonts/ALSSchlangesans.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TT Chocolates ';
+	src: local('../fonts/TT Chocolates  Light'), local('TT-Chocolates--Light'),
+			url('../fonts/TTChocolates-Light.woff2') format('woff2'),
+			url('../fonts/TTChocolates-Light.woff') format('woff'),
+			url('../fonts/TTChocolates-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TT Chocolates 1 ';
+	src: local('TT Chocolates  Regular'), local('TT-Chocolates--Regular'),
+			url('TTChocolates-Regular.woff2') format('woff2'),
+			url('TTChocolates-Regular.woff') format('woff'),
+			url('TTChocolates-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}

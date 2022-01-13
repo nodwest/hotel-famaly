@@ -1,0 +1,326 @@
+.box
+	h2
+		font-size: 40px 
+	
+.div_center
+	display: flex
+	justify-content: center
+
+.button_m
+	padding: 15px 30px
+	background-color: #ff0000
+	border-radius: 10px
+	border: none
+	color: #ffffff
+	text-transform: uppercase
+	cursor: pointer
+	
+.span_title
+	margin-top: 40px
+	font-size: 70px
+
+.photo_links
+	position: relative
+	margin-left: 20px
+	padding-bottom: .1rem
+	font-size: 1.1rem
+	text-transform: uppercase
+	transition: width .3s ease-in-out
+	
+	&::after
+		display: block
+		content: ''
+		position: absolute
+		width: 0%
+		height: 2px
+		top: 20px
+		left: 0
+		background-color: red
+		transition: width .3s ease-in-out
+	
+	&:hover::after
+		width: 100%
+
+.fz
+	font-size: 25px !important
+
+
+
+
+.modal_w
+	display: flex
+	position: fixed
+	z-index: 999
+	background: #fff
+	margin: auto
+	color: #000000
+	width: 100%
+	height: 20%
+	bottom: 0
+
+
+	
+	flex-direction: column
+	justify-content: center
+	align-items: center
+	border-radius: 10px
+
+
+.modal_w_over
+		position: fixed
+		width: 100%
+		height: 100%	
+		background-color: rgba(0,0,0,0.2)
+		z-index: 998
+		display: none
+	
+.modal_w_title
+	font-size: 35px
+	padding: 20px 0
+
+.modal_w_subtitle
+	margin-top: 0px
+	font-size: 15px
+	text-align: center
+	padding: 0 20px	
+
+.modal_form	
+	margin-top: 20px
+.modal_form_flex
+	margin-top: 10px
+	display: flex
+	align-items: center
+
+	label	
+		margin-right: 20px
+		min-width: 165px
+	input
+		border-radius: 5px
+		border: solid 1px #000
+
+.modal_form_flex_btn
+	display: flex
+	justify-content: center
+	margin-top: 20px	
+	button
+		color: #fff 
+		background-color: #ff0000
+		border: 1px solid #ffdc7d
+		padding: 10px 20px
+		border-radius: 10px
+		transition: all 1s
+		&:hover
+			color: #181A1C 
+			background-color: #f1c40f
+			border: 1px solid #181A1C
+
+
+.modal_w_exit
+	position: absolute
+	top: 5px
+	right: 5px
+	width: 30px
+	height: 30px
+	cursor: pointer
+	
+	&:after 
+		position: absolute
+		top: 15px
+		content: ''	
+		display: block
+		height: 1px
+		width: 20px
+		background-color: #000
+	&:before
+		position: absolute
+		top: 15px
+		content: ''	
+		display: block
+		height: 1px
+		width: 20px
+		background-color: #000		
+		
+	
+	&:before
+		transform: rotate(45deg)
+				
+	&:after
+		transform: rotate(-45deg)
+
+
+.price_room
+	display: flex
+
+	&_item
+		display: flex
+		flex-direction: column
+		margin-left: 5px
+		margin-right: 5px
+	
+		padding: 5px
+		&__price
+			display: flex
+			justify-content: center
+			border-top: 1px solid 
+		
+
+// .rooms_item1
+// 	background-image: url('../img/2a/7.jpg')
+// 	min-height: 700px
+// 	background-size: cover
+
+
+// .rooms_item2
+// 	background-image: url('../img/2b/3.jpg')
+// 	min-height: 700px
+// 	background-size: cover
+// 	background-position: right bottom
+
+// .rooms_item3
+// 	background-image: url('../img/3a/3.jpg')
+// 	min-height: 700px
+// 	background-size: cover
+// 	background-position: right bottom
+	
+// .rooms_item4
+// 	background-image: url('../img/3b/4.jpg')
+// 	min-height: 700px
+// 	background-size: cover
+// 	background-position: right bottom
+
+// .rooms_item5
+// 	background-image: url('../img/4b/2.jpg')
+// 	min-height: 700px
+// 	background-size: cover
+// 	background-position: right bottom
+	
+// .rooms_item6
+
+
+
+
+.flex_room
+	display: flex
+	flex-direction: column
+	justify-content: center
+	align-items: center
+	padding-top: 20px
+	&__title
+		font-size: 25px
+		color: #000
+		margin-bottom: 10px
+	&__text
+		padding-left: 10px
+		padding-right: 10px
+	&__price
+		margin-top: 10px
+		font-size: 20px
+		color: #000000
+.button_d
+	margin-top: 10px
+	padding: 10px 20px
+	background-color: #ff0000
+	border-radius: 10px
+	border: none
+	color: #ffffff
+	text-transform: uppercase
+	cursor: pointer	
+
+.mt
+	margin-top: 20px
+
+.table_l
+	th
+		color: #ffffff
+		font-size: 22px
+		padding: 15px
+	td
+		color: #ffffff
+		font-size: 20px
+		padding-left: 5px
+		padding-right: 5px
+		text-align: center
+		text-transform: uppercase
+
+.mobile_price
+	font-size: 20px
+	
+
+.nav-link
+	color: #ffffff !important
+.lalka
+	display: block
+	position: relative
+.img_block
+	display: none
+	img
+		width: 22px
+
+.raschet
+	font-size: 20px
+	padding-top: 10px
+	padding-bottom: 10px
+
+.galary_photo
+	margin-top: 40px
+	.ion-chevron-right
+		display: none
+	.ion-chevron-left
+		display: none
+
+@media screen and (max-width: 769px)
+	.photo_links
+		font-size: 13px
+	.table_l
+		display: none
+
+	.ion-chevron-right
+		display: none
+	.img_block
+		display: none
+	.rooms_item1
+		min-height: 300px
+	.rooms_item2
+		min-height: 300px
+	.rooms_item3
+		min-height: 300px
+	.rooms_item4
+		min-height: 300px
+	.rooms_item5
+		min-height: 300px
+	.rooms_item6
+		min-height: 300px
+
+	.price_room
+		flex-direction: column
+	.modal_w
+		height: 100%
+
+
+.nomera_text
+	padding: 0 30px
+	color: #000000
+
+
+.nomera_title
+	text-align: center
+	font-size: 25px
+	color: #000000
+
+.center
+	display: flex
+	justify-content: center
+
+.dopus
+	padding-bottom: 20px
+	padding-top: 40px
+
+
+.center
+	display: flex
+	justify-content: center
+
+
+.header_right
+	h4
+		font-size: 10px !important

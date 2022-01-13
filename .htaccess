@@ -1,0 +1,5 @@
+RewriteEngine On
+#RewriteBase /
+RewriteCond %{HTTPS_HOST} ^(www.)?web-sites\.pulsarlab\.(com|ru)$
+RewriteCond %{REQUEST_URI} !/web-sites/
+RewriteRule ^(.*)$ /web-sites/$1 [L]
